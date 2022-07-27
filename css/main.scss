@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Poppins:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+body{
+    background: hsl(225, 100%, 94%);
+}
+
+html{
+    font-size: 62.5%;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    
+
+    .container{
+        position: relative;
+        background: white;
+        margin: 5rem;
+        text-align: center;
+        border-radius: 2rem;
+        width: 30rem;
+    
+    
+        .hero-image img{
+            width: 100%;
+            border-top-left-radius: 2rem;
+            border-top-right-radius: 2rem;
+        }
+    }
+
+    .heading{
+        font-size: 1.5rem;
+        padding: 1rem;
+        margin-top: 2rem;
+
+        p{
+            padding-top: 2rem;
+            line-height: 2.5rem;
+            color: gray;
+        }
+    }
+
+    .sub{
+        display: flex;
+        background: rgb(247, 249, 250);
+        margin:0 3rem;
+        padding: 1rem;
+        border-radius: 1rem;
+        font-size: 1.4rem;
+
+        h4{
+            margin-left: 1rem;
+            margin-top: .5rem;
+            color: black;
+        }
+
+        p{
+            position: absolute;
+            left: 10rem;
+            bottom: 13.5rem;
+            color: gray;
+        }
+
+        a{
+            position: absolute;
+            right: 4rem;
+            bottom: 14.5rem;
+            font-weight: bold;
+
+            &:hover{
+                color: rgb(98, 77, 172);
+                text-decoration: none;
+            }
+        }
+    }
+    
+    button{
+        margin-top: 2rem;
+        padding: 1.5rem 6rem;
+        border: none;
+        background: rgb(58, 21, 190);
+        color: white;
+        border-radius: 1rem;
+        cursor: pointer;
+
+        &:hover{
+            background: rgb(98, 77, 172);
+        }
+    }
+
+    h4{
+        margin: 2rem;
+        font-size: 1.4rem;
+        color: gray;
+        cursor: pointer;
+
+        &:hover{
+            color: black;
+        }
+    } 
+}

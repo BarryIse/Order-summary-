@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300&family=Poppins:wght@400;700&family=Red+Hat+Display:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+body {
+  background: #e0e8ff;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+section .container {
+  position: relative;
+  background: white;
+  margin: 5rem;
+  text-align: center;
+  border-radius: 2rem;
+  width: 30rem;
+}
+
+section .container .hero-image img {
+  width: 100%;
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+}
+
+section .heading {
+  font-size: 1.5rem;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+section .heading p {
+  padding-top: 2rem;
+  line-height: 2.5rem;
+  color: gray;
+}
+
+section .sub {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #f7f9fa;
+  margin: 0 3rem;
+  padding: 1rem;
+  border-radius: 1rem;
+  font-size: 1.4rem;
+}
+
+section .sub h4 {
+  margin-left: 1rem;
+  margin-top: .5rem;
+  color: black;
+}
+
+section .sub p {
+  position: absolute;
+  left: 10rem;
+  bottom: 13.5rem;
+  color: gray;
+}
+
+section .sub a {
+  position: absolute;
+  right: 4rem;
+  bottom: 14.5rem;
+  font-weight: bold;
+}
+
+section .sub a:hover {
+  color: #624dac;
+  text-decoration: none;
+}
+
+section button {
+  margin-top: 2rem;
+  padding: 1.5rem 6rem;
+  border: none;
+  background: #3a15be;
+  color: white;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+section button:hover {
+  background: #624dac;
+}
+
+section h4 {
+  margin: 2rem;
+  font-size: 1.4rem;
+  color: gray;
+  cursor: pointer;
+}
+
+section h4:hover {
+  color: black;
+}
+/*# sourceMappingURL=main.css.map */
